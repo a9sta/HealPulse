@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "ko": "힐펄스",
+    "en": "HealPulse",
+    "slogan": "시군구 테두리는 안쪽 동네들이 나눠 맡고 있습니다"
+  },
+  "siteUrl": "https://healpulse.netlify.app",
+  "locale": "ko_KR",
+  "tel": "050-8202-4753",
+  "telRaw": "05082024753",
+  "telLabel": "예약 문의",
+  "hours": "24시간 연중무휴",
+  "pay": "후불제",
+  "arrive": "접수 뒤 20~45분",
+  "naverVerification": "",
+  "rssTitle": "힐펄스 테두리 노트",
+  "business": {
+    "name": "힐펄스",
+    "owner": "",
+    "regNo": "",
+    "address": "",
+    "privacyOfficer": "",
+    "email": "",
+    "note": "사업자 정보는 확정되는 대로 이 항목만 채우면 푸터·스키마에 함께 반영된다. 비워 두면 해당 줄은 출력하지 않는다."
+  },
+  "coverage": {
+    "main": ["서울", "인천", "경기", "부산"],
+    "sub": ["대전", "대구", "울산", "광주", "충남", "충북", "강원", "전북", "전남", "경북", "경남"]
+  },
+  "indexNowKey": "bf779fe4b6f096e29a5340aa116d12d5"
+}
