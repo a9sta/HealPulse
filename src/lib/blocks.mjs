@@ -200,7 +200,7 @@ export function nearList(sd, g, seedKey, num) {
   const items = g.near.slice(0, 12).map((t) => `<li><a href="/${t.sidoSlug}/${t.slug}/"><span class="g-n">${esc(t.gu)}</span><span class="g-s">${mTxt(t.m)}${t.same ? '' : ' · 시도 밖'}</span></a></li>`).join('\n');
   return band('near', 'facing', `${esc(g.name)}${josa(g.name, '과/와')} 선을 맞댄 시군구 ${g.nearCount}곳`,
     `<ul class="grid3">\n${items}\n</ul>`,
-    `맞댄 길이가 긴 차례입니다. 경계에 바짝 붙은 주소라면 길게 맞댄 쪽에서 넘어오는 편이 빠를 때가 있습니다.`, num);
+    esc(at(hash(seedKey, 'nl'), SEC.nearSub)), num);
 }
 
 /* ── 아래쪽 안내 링크 (글·약관 등 얕은 페이지용) ─────────────── */
